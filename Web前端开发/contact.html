@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板 - NBA球星专题</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">球星介绍</a></li>
+            <li><a href="portfolio.html">精彩集锦</a></li>
+            <li><a href="connection.html">我与球星</a></li>
+            <li><a href="contact.html">留言板</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header>
+            <h1>球迷留言板</h1>
+            <p>分享你对两位球星的看法和回忆</p>
+        </header>
+        <section>
+            <h2>最新留言</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>球迷</th>
+                        <th>留言内容</th>
+                        <th>时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>姜x森</td>
+                        <td>永远记得安东尼在掘金时期的精彩表现！</td>
+                        <td>2024-03-20</td>
+                    </tr>
+                    <tr>
+                        <td>罗斯粉丝</td>
+                        <td>2011年MVP赛季的罗斯真的太强了！</td>
+                        <td>2024-03-19</td>
+                    </tr>
+                    <tr>
+                        <td>NBA爱好者</td>
+                        <td>两位都是传奇，期待他们的球衣都能被退役！</td>
+                        <td>2024-03-18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>发表留言</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">昵称：</label>
+                    <input type="text" id="name" name="name" required placeholder="请输入您的昵称">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" required placeholder="请输入您的邮箱">
+                </div>
+
+                <div class="form-group">
+                    <label for="favorite">最喜欢的球星：</label>
+                    <select id="favorite" name="favorite" required>
+                        <option value="">请选择</option>
+                        <option value="anthony">卡梅隆·安东尼</option>
+                        <option value="rose">德里克·罗斯</option>
+                        <option value="both">都喜欢</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">留言内容：</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="分享你的想法和回忆..."></textarea>
+                </div>
+
+                <button type="submit">发表留言</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 卡罗球迷专题网站.</p>
+    </footer>
+</body>
+</html> 
